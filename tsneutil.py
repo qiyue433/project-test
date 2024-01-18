@@ -1,7 +1,7 @@
 from os.path import abspath, dirname, join
-
 import numpy as np
 import scipy.sparse as sp
+import torch
 
 FILE_DIR = dirname(abspath(__file__))
 DATA_DIR = join(FILE_DIR, "data")
